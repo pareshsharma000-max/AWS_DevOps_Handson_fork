@@ -1,0 +1,74 @@
+Git and GitHub Notes
+
+* What is Git?
+Git is a distributed version control system used to track changes in source code.
+It helps developers maintain code history and work with different branches.
+
+* What is GitHub?
+GitHub is a cloud-based platform used to host Git repositories.
+It helps developers collaborate, share code, create pull requests, review code, and manage projects.
+
+* Important Git Commands:
+
+git --version
+Checks the installed Git version.
+
+git config --global user.name "username"
+Sets the Git username.
+
+git config --global user.email "email"
+Sets the Git email address.
+
+git clone <repository-url>
+Creates a local copy of a remote repository.
+
+git status
+Shows the current status of the working directory and staging area.
+
+git branch
+Shows the available local branches.
+
+git branch <branch-name>
+Creates a new branch.
+
+git checkout <branch-name>
+Switches to another branch.
+
+git checkout -b <branch-name>
+Creates a new branch and switches to it.
+
+git add <file-name>
+Adds a specific file to the staging area.
+
+git add .
+Adds all current changes to the staging area.
+
+git commit -m "message"
+Creates a commit containing the staged changes.
+
+git log
+Shows the commit history.
+
+git log --oneline
+Shows commit history in a short format.
+
+git diff
+Shows changes that have not been staged.
+
+git remote -v
+Shows the configured remote repositories.
+
+git remote add <name> <repository-url>
+Adds a new remote repository.
+
+git fetch
+Downloads the latest information from the remote repository without merging it.
+
+git pull
+Downloads and integrates the latest changes from the remote repository.
+
+git push
+Pushes local commits to the remote repository.
+
+git merge <branch-name>
+Merges the specified branch into the current branch.
